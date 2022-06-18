@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    color: black;
+    font-family: sans-serif;
+}
+
+.navbar {
+    background-color: grey;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.col {
+    background-color: white;
+}
+
+.pad {
+    background-color: grey;
+    margin: 5px;
+    padding: 10px;
+}
+
+.nav-item {
+    background-color: aliceblue;
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+}
+
+@media (min-width: 768px)
+{
+    .navbar-toggler {
+        display: none;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+}
+
